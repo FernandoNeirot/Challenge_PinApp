@@ -1,7 +1,7 @@
 # Agregar Variables de entorno
 
 Recuerde que si quiere levantar el proyecto
-debera agregar el archivo .env.local
+debera agregar el archivo .env
 
 y agregar los siguientes valores
 
