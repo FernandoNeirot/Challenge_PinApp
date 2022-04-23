@@ -3,7 +3,7 @@
 Recuerde que si quiere levantar el proyecto
 debera agregar el archivo .env
 
-y agregar los siguientes valores
+y agregar los valores correspondientes a las siguientes variables
 
 
 REACT_APP_FIREBASE_APIKEY= 
