@@ -37,8 +37,7 @@ const ProjectionAnalysisClient = () => {
         <Grid container spacing={3} style={{ width: "70%", marginTop: "50px", marginLeft: "15%", boxShadow: "0px 2px 15px 0px rgba(0,0,0,0.75)" }}>
             <Grid item xs={12}>
                 <Typography variant="h4" component="h1" style={{ width: "100%", padding: "10px", textAlign: "center" }}>
-                    Projection and Analysis Client
-                    {/* {clients&& clients.map(x=>x.birthDate.toLocaleString())} */}
+                    Listado de clientes
                 </Typography>
             </Grid>
             <DataTable

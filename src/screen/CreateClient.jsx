@@ -81,7 +81,7 @@ const CreateClient = () => {
                                     fullWidth
                                 />
                             </Grid>
-                            <Grid item xs={12} item justify="flex-start" style={{ marginTop: "20px", marginBottom: "20px" }}>
+                            <Grid item xs={12} justify="flex-start" style={{ marginTop: "20px", marginBottom: "20px" }}>
                                 <TextField
                                     id="lastName"
                                     name="lastName"
@@ -144,6 +144,7 @@ const CreateClient = () => {
                     direction="row"
                     justifyContent="center"
                     alignItems="center"
+                    style={{ marginTop: "20px", marginBottom: "20px" }}
                 >
                     <Grid item xs={1}>
                         <LoadingButton
@@ -154,14 +155,6 @@ const CreateClient = () => {
                         >
                             Agregar
                         </LoadingButton>
-                        <Button
-                            color="primary"
-                            onClick={formik.handleSubmit}
-                            variant="contained"
-                            style={{ marginTop: "20px", marginBottom: "20px" }}
-                        >
-                            Agregar
-              </Button>
                     </Grid>
                 </Grid>
 

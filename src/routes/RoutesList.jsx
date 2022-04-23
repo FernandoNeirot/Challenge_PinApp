@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar'
 import { ROUTES } from '../utils/Constants'
 import CreateClient from '../screen/CreateClient'
 import Home from '../screen/Home'
-import ListClient from '../screen/ListClient'
-import ProjectionAnalysisClient from '../screen/ProjectionAnalysisClient'
+import Report from '../screen/Report'
+import ClientList from '../screen/ClientList'
 
 const RoutesList = () => {
     return (
@@ -13,9 +13,9 @@ const RoutesList = () => {
             <Navbar />
             <Routes>
                 <Route path={ROUTES.CREATE_CLIENT} element={<CreateClient />} />
-                <Route path={ROUTES.LIST_CLIENT} element={<ListClient />} />
-                <Route path={ROUTES.PROJECTION_ANALYSIS} element={<ProjectionAnalysisClient />} />
-                <Route path="/*" element={<Home />} />
+                <Route path={ROUTES.REPORT} element={<Report />} />
+                <Route path={ROUTES.CLIENT_LIST} element={<ClientList />} />
+                <Route path="/*" element={<ClientList />} />
             </Routes>
         </BrowserRouter>
     )

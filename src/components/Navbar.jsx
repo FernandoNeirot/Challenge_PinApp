@@ -18,9 +18,9 @@ const Navbar =()=> {
           <Typography style={{cursor:"pointer"}} onClick={()=>navigate("/")} variant="h6" component="div" >
             Gestion de Clientes
           </Typography>
-          <Button style={{marginLeft:"25px", color:"white"}} onClick={()=>navigate(ROUTES.CREATE_CLIENT)} > Crear </Button>
-          <Button style={{marginLeft:"25px", color:"white"}}onClick={()=>navigate(ROUTES.LIST_CLIENT)} variant="outlined"> Listado </Button>
-          <Button style={{marginLeft:"25px", color:"white"}}onClick={()=>navigate(ROUTES.PROJECTION_ANALYSIS)} variant="outlined"> Proyeccion y analisis </Button>
+          <Button style={{marginLeft:"25px", color:"white"}} onClick={()=>navigate(ROUTES.CREATE_CLIENT)} > Crear  </Button>
+          <Button style={{marginLeft:"25px", color:"white"}}onClick={()=>navigate(ROUTES.REPORT)} variant="outlined"> Reportes </Button>
+          <Button style={{marginLeft:"25px", color:"white"}}onClick={()=>navigate(ROUTES.CLIENT_LIST)} variant="outlined"> Listado de Clientes </Button>
         </Toolbar>
       </AppBar>
     </Box>
