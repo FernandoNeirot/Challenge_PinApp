@@ -15,7 +15,7 @@ const validationSchema = yup.object({
     name: yup.string().required("Es requerido"),
     lastName: yup.string().required("Es Requerido"),
     birthDate: yup.date().required("Es requerido"),
-    age: yup.number().moreThan(18,"Mayor a 21 años")
+    age: yup.number().moreThan(21,"Mayor a 21 años")
 });
 
 const CreateClient = () => {
